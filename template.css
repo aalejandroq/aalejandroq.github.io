@@ -21,3 +21,13 @@ section:before {
 .vh-100 {
     min-height: 100vh;
 }
+@font-face {
+    font-family: 'StateFaceRegular';
+    src: url('stateface-regular-webfont.eot');
+    src: url('stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('stateface-regular-webfont.woff') format('woff'),
+          url('stateface-regular-webfont.ttf') format('truetype'),
+          url('stateface-regular-webfont.svg#StateFaceRegular') format('svg');
+    font-weight: lighter;
+    font-style: lighter;
+  }
